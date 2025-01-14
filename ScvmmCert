@@ -1,0 +1,3 @@
+$credential = get-credential
+
+Get-SCVMMManagedComputer -ComputerName "SBPSCVMM01.sbp.local" | Register-SCVMMManagedComputer -Credential $credential
